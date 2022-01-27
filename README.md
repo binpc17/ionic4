@@ -1,5 +1,5 @@
 # ionic4
-Simple Project App Build using IONIC framework v4 &amp; Angular, firebase and push notification for Android and iOs App
+Simple Project App Build using IONIC framework v4 &amp; Angular,==> GoogleMap, Weather API, GPS API AND a simple CRUD APP included in this simple project for Android and iOs App
 
 Juste clone the project then install npm
 
