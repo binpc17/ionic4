@@ -3,7 +3,7 @@ Simple Project App Build using IONIC framework v4 &amp; Angular, firebase and pu
 
 Juste clone the project then install npm
 
-1. $ git clone git@gitlab.com:fishingthespot/fts.git
+1. $ git clone https://github.com/binpc17/ionic4.git
 2. npm install
 
 if you find issue feel free to contact: binpc17@gmail.com
