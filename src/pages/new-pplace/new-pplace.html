@@ -1,0 +1,38 @@
+<!--
+  Generated template for the NewPplacePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-title>New Place</ion-title>
+  </ion-navbar>
+  <button ion-button="" menuToggle="">
+    <ion-icon name="menu"></ion-icon>
+  </button>
+</ion-header>
+
+<ion-content padding>
+
+  <form #f="ngForm" (ngSubmit)="onAddPlace2(f.value)">
+<ion-item>
+  <ion-input type="text" name="title" ngModel required="" placeholder="Title"> </ion-input>
+</ion-item>
+  <ion-item>
+  <ion-input type="text" name="country" ngModel required="" placeholder="country"> </ion-input>
+  </ion-item>
+    <ion-item>
+    <ion-input type="text" name="city" ngModel required="" placeholder="city"> </ion-input>
+      </ion-item>
+    <ion-item>
+  <ion-input type="text" name="keyword" ngModel required="" placeholder="keyword"> </ion-input>
+</ion-item>
+<button ion-button="" block="" type="submit">SubMit</button>
+  </form>
+
+</ion-content>
+
+
+
+

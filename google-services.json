@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "895050346764",
+    "project_id": "ionicv3-3fac5",
+    "storage_bucket": "ionicv3-3fac5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895050346764:android:bcb73385e727c541f61929",
+        "android_client_info": {
+          "package_name": "zola.egozola.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895050346764-185h83pki7smqjm1n8077jvkrso2967m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBopsl71uhUtu_XJtEIfbcNZAbpTwZBAcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895050346764-185h83pki7smqjm1n8077jvkrso2967m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

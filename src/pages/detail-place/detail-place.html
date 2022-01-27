@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-title>Detail Place</ion-title>
+    <button ion-button="" menuToggle="">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+    <ion-buttons end=""> <!-- To Add Button in Bar-->
+      <button ion-button="" icon-only="" (click)="onNewPlace()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <ion-card>
+    <ion-card-header> {{place.title}} </ion-card-header>
+    <ion-card-content>
+      <p> Title: <strong>{{place.title}}</strong></p>
+      <p> Country: <strong>{{place.pcountry}}</strong></p>
+      <p> City: <strong>{{place.city}}</strong></p>
+      <!--
+            <p> Keyword: <strong>{{place.keyword}}</strong></p>
+      <p> Longitude: <strong>{{place.location.longitude}}</strong></p>
+      <p> Latitude: <strong>{{place.location.latitude}}</strong></p>
+      -->
+    </ion-card-content>
+    <ion-card-content>
+    </ion-card-content>
+  </ion-card>
+  <ion-list *ngFor="let p of places">
+    <ion-item ion-item="">
+      {{p.title}}
+    </ion-item>
+  </ion-list>
+
+</ion-content>
